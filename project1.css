@@ -1,0 +1,542 @@
+.desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-color: #ffffff;
+  }
+  
+  .desktop .frame {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    align-items: center;
+    gap: 100px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 60px;
+    position: relative;
+    align-self: stretch;
+    width: 1440;
+    flex: 0 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0px 6px 10px #00000026;
+  }
+  
+  .desktop .text-wrapper {
+    position: relative;
+    width: fit-content;
+    font-family: "Montagu Slab-Bold", Helvetica;
+    font-weight: 700;
+    color: #a88dd8;
+    font-size: 36px;
+    letter-spacing: 4.32px;
+    line-height: 40px;
+    white-space: nowrap;
+    text-decoration: none;
+  }
+  
+  .desktop .frame-2 {
+    display: inline-flex;
+    align-items: center;
+    gap: 30px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .div-wrapper {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 1px;
+    position: relative;
+    flex: 0 0 auto;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-color: #000000;
+  }
+  
+  .desktop .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    margin-top: -2.00px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #161018;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 28px;
+    white-space: nowrap;
+    text-decoration: none;
+  }
+  
+  .desktop .frame-3 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 1px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .frame-4 {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .an-abstract {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+  }
+  
+  .desktop .frame-5 {
+    display: flex;
+    align-items: flex-start;
+    gap: 76px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .frame-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .desktop .frame-7 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .text-wrapper-3 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #c5b3e5;
+    font-size: 28px;
+    letter-spacing: 10.00px;
+    line-height: 36px;
+  }
+  
+  .desktop .text-wrapper-4 {
+    position: relative;
+    align-self: stretch;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #161018;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 28px;
+  }
+  
+  .desktop .frame-8 {
+    display: flex;
+    flex-direction: column;
+    width: 543px;
+    align-items: flex-start;
+    gap: 44px;
+    padding: 0px 0px 48px;
+    position: relative;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: var(--variable-collection-neutral-500);
+  }
+  
+  .desktop .frame-9 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .text-wrapper-5 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Montagu Slab-Medium", Helvetica;
+    font-weight: 500;
+    color: #161018;
+    font-size: 44px;
+    letter-spacing: 3.00px;
+    line-height: 48px;
+  }
+  
+  .desktop .text-wrapper-6 {
+    position: relative;
+    align-self: stretch;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: var(--variable-collection-neutral-text-gray-dark-400);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 28px;
+  }
+  
+  .desktop .frame-10 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px 0px 0px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .frame-11 {
+    display: flex;
+    flex-direction: column;
+    width: 165px;
+    align-items: flex-start;
+    gap: 40px;
+    position: relative;
+  }
+  
+  .desktop .text-wrapper-7 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: var(--variable-collection-neutral-text-gray-dark-400);
+    font-size: 16px;
+    letter-spacing: 2.40px;
+    line-height: 28px;
+  }
+  
+  .desktop .frame-12 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .frame-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 381px;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+  }
+  
+  .desktop .frame-13 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 76px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .desktop .frame-14 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 44px;
+    padding: 0px 0px 48px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .frame-15 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .text-wrapper-8 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #161018;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: 36px;
+  }
+  
+  .desktop .p {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #161018;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 32px;
+  }
+  
+  .desktop .feel-free-to-chat {
+    position: relative;
+    align-self: stretch;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #161018;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 32px;
+  }
+  
+  .desktop .span {
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #161018;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 32px;
+  }
+  
+  .desktop .text-wrapper-9 {
+    text-decoration: underline;
+  }
+  
+  .desktop .frame-16 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 44px;
+    padding: 0px 0px 48px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: #847589;
+  }
+  
+  .desktop .text-wrapper-10 {
+    position: relative;
+    align-self: stretch;
+    font-family: "Inter-MediumItalic", Helvetica;
+    font-weight: 500;
+    font-style: italic;
+    color: #161018;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 36px;
+  }
+  
+  .desktop .long-exposure-of-a {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .desktop .div-2 {
+    position: relative;
+    align-self: stretch;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 400;
+    color: #161018;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 32px;
+  }
+  
+  .desktop .text-wrapper-11 {
+    font-weight: 600;
+  }
+  
+  .desktop .text-wrapper-12 {
+    font-family: "Inter-Regular", Helvetica;
+  }
+  
+  .desktop .ABSTRACT {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 200px;
+    background-image: url(./img/ABSTRACT.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .desktop .frame-17 {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 200px;
+    background-image: url(./img/frame-1000002986.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .desktop .mockup-a-billboard {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 200px;
+    background-image: url(./img/mockup-a-billboard-over-harajuku.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .desktop .photo-of-a-bright {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 200px;
+    background-image: url(./img/photo-of-a-bright-rolling-landscape.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .desktop .an-abstract-2 {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 200px;
+    background-image: url(./img/an-abstract-background-like-the-northern-lights.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .desktop .an-abstract-3 {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 200px;
+    background-image: url(./img/image.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .desktop .a-sweeping-cinematic {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    background-image: url(./img/a-sweeping-cinematic-shot-of-the-wild-west.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .desktop .interior-of-a {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    background-image: url(./img/interior-of-a-beautiful-house-in-liguria-italy.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .desktop .a-sweeping-cinematic-2 {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    background-image: url(./img/project1\ pic2.svg);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .desktop .frame-18 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding: 24px 0px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .frame-19 {
+    display: flex;
+    width: 138px;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 24px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .ri-behance-fill {
+    position: relative;
+    width: 41.84px;
+    height: 33.79px;
+    margin-bottom: -3.79px;
+    margin-left: -3.85px;
+  }
+  
+  .desktop .line-md-linkedin {
+    position: relative;
+    width: 34.7px;
+    height: 34.7px;
+    margin-top: -0.60px;
+    margin-bottom: -4.10px;
+  }
+  
+  .desktop .ic-outline-email {
+    position: relative;
+    width: 35.2px;
+    height: 32.1px;
+    margin-bottom: -2.10px;
+    margin-right: -2.60px;
+  }
+  
+  .desktop .text-wrapper-13 {
+    position: relative;
+    align-self: stretch;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: var(--variable-collection-neutral-text-gray-dark-400);
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 28px;
+  }
+  
