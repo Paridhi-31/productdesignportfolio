@@ -219,3 +219,70 @@
   letter-spacing: 0;
   line-height: 28px;
 }
+
+
+
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+  .desktop .frame {
+    width: 1000px; /* Adjusted width for medium screens */
+    height: auto; /* Allow height to adjust */
+  }
+
+  .desktop .div {
+    padding: 20px 40px; /* Smaller padding */
+  }
+
+  .desktop .text-wrapper {
+    font-size: 30px; /* Adjusted font size */
+  }
+
+  .desktop .i-m-priyanka {
+    font-size: 80px; /* Adjusted font size */
+  }
+}
+
+@media (max-width: 900px) {
+  .desktop .frame {
+    width: 800px; /* Adjusted width for smaller screens */
+    height: auto; /* Allow height to adjust */
+  }
+
+  .desktop .div {
+    padding: 16px 30px; /* Smaller padding */
+  }
+
+  .desktop .text-wrapper {
+    font-size: 28px; /* Adjusted font size */
+  }
+
+  .desktop .i-m-priyanka {
+    font-size: 70px; /* Adjusted font size */
+  }
+}
+
+@media (max-width: 600px) {
+  .desktop .frame {
+    width: 100%; /* Full width for small screens */
+    height: auto; /* Allow height to adjust */
+  }
+
+  .desktop .div {
+    padding: 12px 20px; /* Smaller padding */
+  }
+
+  .desktop .text-wrapper {
+    font-size: 24px; /* Adjusted font size */
+  }
+
+  .desktop .i-m-priyanka {
+    font-size: 60px; /* Adjusted font size */
+  }
+
+  .desktop .text-wrapper-2,
+  .desktop .i-m-a-product,
+  .desktop .p {
+    font-size: 18px; /* Adjusted font size */
+  }
+}
